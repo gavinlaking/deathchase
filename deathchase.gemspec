@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'deathchase/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "deathchase"
-  spec.version       = Deathchase::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["Gavin Laking"]
   spec.email         = ["gavinlaking@gmail.com"]
 
